@@ -7,7 +7,7 @@
 
 #include "defines.h"
 
-  /* codebook/lsp1.txt */
+  /* /media/psf/Home/git/codec2/src/codebook/lsp1.txt */
 static const float codes0[] = {
   225,
   250,
@@ -26,7 +26,7 @@ static const float codes0[] = {
   575,
   600
 };
-  /* codebook/lsp2.txt */
+  /* /media/psf/Home/git/codec2/src/codebook/lsp2.txt */
 static const float codes1[] = {
   325,
   350,
@@ -45,7 +45,7 @@ static const float codes1[] = {
   675,
   700
 };
-  /* codebook/lsp3.txt */
+  /* /media/psf/Home/git/codec2/src/codebook/lsp3.txt */
 static const float codes2[] = {
   500,
   550,
@@ -64,7 +64,7 @@ static const float codes2[] = {
   1200,
   1250
 };
-  /* codebook/lsp4.txt */
+  /* /media/psf/Home/git/codec2/src/codebook/lsp4.txt */
 static const float codes3[] = {
   700,
   800,
@@ -83,7 +83,7 @@ static const float codes3[] = {
   2100,
   2200
 };
-  /* ../unittest/lspjnd5-10.txt */
+  /* /media/psf/Home/git/codec2/unittest/lspjnd5-10.txt */
 static const float codes4[] = {
   1400,  2000,  2400,  2500,  3300,  3400,
   1400,  1900,  2400,  2500,  3200,  3400,
@@ -3457,35 +3457,35 @@ static const float codes4[] = {
 };
 
 const struct lsp_codebook lsp_cbjnd[] = {
-  /* codebook/lsp1.txt */
+  /* /media/psf/Home/git/codec2/src/codebook/lsp1.txt */
   {
     1,
     4,
     16,
     codes0
   },
-  /* codebook/lsp2.txt */
+  /* /media/psf/Home/git/codec2/src/codebook/lsp2.txt */
   {
     1,
     4,
     16,
     codes1
   },
-  /* codebook/lsp3.txt */
+  /* /media/psf/Home/git/codec2/src/codebook/lsp3.txt */
   {
     1,
     4,
     16,
     codes2
   },
-  /* codebook/lsp4.txt */
+  /* /media/psf/Home/git/codec2/src/codebook/lsp4.txt */
   {
     1,
     4,
     16,
     codes3
   },
-  /* ../unittest/lspjnd5-10.txt */
+  /* /media/psf/Home/git/codec2/unittest/lspjnd5-10.txt */
   {
     6,
     11.7181,

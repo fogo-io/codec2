@@ -15,17 +15,17 @@
 					<stringMacro name="INSTALLPATH" type="VALUE_TEXT" value="${INSTALLPATH_${OsType}}"/>
 					<stringMacro name="TOOLSPATH" type="VALUE_TEXT" value="${TOOLSPATH_${OsType}}"/>
 					<stringMacro name="RM" type="VALUE_TEXT" value="${RM_${OsType}}"/>
-					<stringMacro name="RM_win64" type="VALUE_TEXT" value="${RM_win32}"/>
 					<stringMacro name="INSTALLPATH_win64" type="VALUE_TEXT" value="${INSTALLPATH_win32}"/>
-					<stringMacro name="HOST" type="VALUE_TEXT" value="arm-cm4-eabi"/>
+					<stringMacro name="RM_win64" type="VALUE_TEXT" value="${RM_win32}"/>
 					<stringMacro name="TOOLSPATH_win64" type="VALUE_TEXT" value="${TOOLSPATH_win32}"/>
+					<stringMacro name="HOST" type="VALUE_TEXT" value="arm-cm4-eabi"/>
 					<stringMacro name="TOOLSPATH_win32" type="VALUE_TEXT" value="C:\CoActionOS-Compiler\CoActionOS"/>
 					<stringMacro name="C_FLAGS" type="VALUE_TEXT" value="-g -mlong-calls -ffunction-sections -fomit-frame-pointer"/>
 					<stringMacro name="ARCH" type="VALUE_TEXT" value="arm"/>
 					<stringMacro name="POSTPROCESS" type="VALUE_TEXT" value="${POSTPROCESS_${OsType}}"/>
 					<stringMacro name="POSTPROCESS_win32" type="VALUE_TEXT" value="../script/post-process.bat"/>
-					<stringMacro name="INSTALLPATH_macosx" type="VALUE_TEXT" value="/usr/local/CoActionOS"/>
 					<stringMacro name="INSTALLPATH_linux" type="VALUE_TEXT" value="${INSTALLPATH_macosx}"/>
+					<stringMacro name="INSTALLPATH_macosx" type="VALUE_TEXT" value="/usr/local/CoActionOS"/>
 					<stringMacro name="RM_macosx" type="VALUE_TEXT" value="rm -rf"/>
 					<stringMacro name="TOOLSPATH_macosx" type="VALUE_TEXT" value="/usr/local/CoActionOS"/>
 				</macros>
@@ -95,17 +95,17 @@
 					<stringMacro name="TOOLSPATH" type="VALUE_TEXT" value="${TOOLSPATH_${OsType}}"/>
 					<stringMacro name="INSTALLPATH" type="VALUE_TEXT" value="${INSTALLPATH_${OsType}}"/>
 					<stringMacro name="RM" type="VALUE_TEXT" value="${RM_${OsType}}"/>
-					<stringMacro name="INSTALLPATH_win64" type="VALUE_TEXT" value="${INSTALLPATH_win32}"/>
 					<stringMacro name="RM_win64" type="VALUE_TEXT" value="${RM_win32}"/>
-					<stringMacro name="TOOLSPATH_win64" type="VALUE_TEXT" value="${TOOLSPATH_win32}"/>
+					<stringMacro name="INSTALLPATH_win64" type="VALUE_TEXT" value="${INSTALLPATH_win32}"/>
 					<stringMacro name="HOST" type="VALUE_TEXT" value="arm-cm3-eabi"/>
+					<stringMacro name="TOOLSPATH_win64" type="VALUE_TEXT" value="${TOOLSPATH_win32}"/>
 					<stringMacro name="TOOLSPATH_win32" type="VALUE_TEXT" value="C:\CoActionOS-Compiler\CoActionOS"/>
 					<stringMacro name="C_FLAGS" type="VALUE_TEXT" value="-g -mlong-calls -ffunction-sections -fomit-frame-pointer"/>
 					<stringMacro name="ARCH" type="VALUE_TEXT" value="arm"/>
 					<stringMacro name="POSTPROCESS" type="VALUE_TEXT" value="${POSTPROCESS_${OsType}}"/>
 					<stringMacro name="POSTPROCESS_win32" type="VALUE_TEXT" value="../script/post-process.bat"/>
-					<stringMacro name="INSTALLPATH_linux" type="VALUE_TEXT" value="${INSTALLPATH_macosx}"/>
 					<stringMacro name="INSTALLPATH_macosx" type="VALUE_TEXT" value="/usr/local/CoActionOS"/>
+					<stringMacro name="INSTALLPATH_linux" type="VALUE_TEXT" value="${INSTALLPATH_macosx}"/>
 					<stringMacro name="RM_macosx" type="VALUE_TEXT" value="rm -rf"/>
 					<stringMacro name="TOOLSPATH_macosx" type="VALUE_TEXT" value="/usr/local/CoActionOS"/>
 				</macros>
@@ -175,17 +175,17 @@
 					<stringMacro name="TOOLSPATH" type="VALUE_TEXT" value="${TOOLSPATH_${OsType}}"/>
 					<stringMacro name="INSTALLPATH" type="VALUE_TEXT" value="${INSTALLPATH_${OsType}}"/>
 					<stringMacro name="RM" type="VALUE_TEXT" value="${RM_${OsType}}"/>
-					<stringMacro name="INSTALLPATH_win64" type="VALUE_TEXT" value="${INSTALLPATH_win32}"/>
 					<stringMacro name="RM_win64" type="VALUE_TEXT" value="${RM_win32}"/>
-					<stringMacro name="TOOLSPATH_win64" type="VALUE_TEXT" value="${TOOLSPATH_win32}"/>
+					<stringMacro name="INSTALLPATH_win64" type="VALUE_TEXT" value="${INSTALLPATH_win32}"/>
 					<stringMacro name="HOST" type="VALUE_TEXT" value="arm-cm4-eabi"/>
+					<stringMacro name="TOOLSPATH_win64" type="VALUE_TEXT" value="${TOOLSPATH_win32}"/>
 					<stringMacro name="TOOLSPATH_win32" type="VALUE_TEXT" value="C:\CoActionOS-Compiler\CoActionOS"/>
 					<stringMacro name="C_FLAGS" type="VALUE_TEXT" value="-g -ffunction-sections -fomit-frame-pointer"/>
 					<stringMacro name="ARCH" type="VALUE_TEXT" value="arm"/>
 					<stringMacro name="POSTPROCESS" type="VALUE_TEXT" value="${POSTPROCESS_${OsType}}"/>
 					<stringMacro name="POSTPROCESS_win32" type="VALUE_TEXT" value="../script/post-process.bat"/>
-					<stringMacro name="INSTALLPATH_linux" type="VALUE_TEXT" value="${INSTALLPATH_macosx}"/>
 					<stringMacro name="INSTALLPATH_macosx" type="VALUE_TEXT" value="/usr/local/CoActionOS"/>
+					<stringMacro name="INSTALLPATH_linux" type="VALUE_TEXT" value="${INSTALLPATH_macosx}"/>
 					<stringMacro name="RM_macosx" type="VALUE_TEXT" value="rm -rf"/>
 					<stringMacro name="TOOLSPATH_macosx" type="VALUE_TEXT" value="/usr/local/CoActionOS"/>
 				</macros>
@@ -236,7 +236,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="fifo.c|ampexp.c|ampexp.h|bpf.h|c2dec.c|c2demo.c|c2enc.c|c2sim.c|CMakeLists.txt|codec2_cohpsk.h|codec2_fdmdv.h|codec2_fifo.h|codec2_fm.h|codec2_internal.h|cohpsk_ch.c|cohpsk_defs.h|cohpsk_demod.c|cohpsk_get_test_bits.c|cohpsk_internal.h|cohpsk_mod.c|cohpsk_put_test_bits.c|cohpsk.c|comp_prim.h|comp.h|dump.c|dump.h|fdmdv_channel.c|fdmdv_demod.c|fdmdv_get_test_bits.c|fdmdv_interleave.c|fdmdv_internal.h|fdmdv_mod.c|fdmdv_put_test_bits.c|fdmdv.c|fec_dec.c|fec_enc.c|fm_demod.c|fm_fir_coeff.h|fm.c|fq20.sh|freedv_api.c|freedv_api.h|freedv_rx.c|freedv_tx.c|generate_codebook.c|genlspdtcb.c|golay23.c|golay23.h|golaydectable.h|golayenctable.h|hanning.h|ht_coeff.h|insert_errors.c|interp.c|interp.h|linreg.c|linreg.h|listensim.sh|machdep.h|modem_stats.c|modem_stats.h|nlp.c|nlp.h|octave.c|octave.h|os.h|pack.c|phase.c|phase.h|phaseexp.c|phaseexp.h|pilot_coeff.h|pilots_coh.h|postfilter.c|postfilter.h|rn_coh.h|rn.h|rxdec_coeff.h|sim.sh|ssbfilt_coeff.h|test_bits_coh.h|test_bits.h|varicode_table.h|varicode.c|varicode.h|lpc.c|lpc.h|lsp.c|lsp.h" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="src"/>
+						<entry excluding="fifo.c|ampexp.c|ampexp.h|bpf.h|c2dec.c|c2demo.c|c2enc.c|c2sim.c|CMakeLists.txt|codec2_cohpsk.h|codec2_fdmdv.h|codec2_fifo.h|codec2_fm.h|codec2_internal.h|cohpsk_ch.c|cohpsk_defs.h|cohpsk_demod.c|cohpsk_get_test_bits.c|cohpsk_internal.h|cohpsk_mod.c|cohpsk_put_test_bits.c|cohpsk.c|comp_prim.h|comp.h|dump.c|dump.h|fdmdv_channel.c|fdmdv_demod.c|fdmdv_get_test_bits.c|fdmdv_interleave.c|fdmdv_internal.h|fdmdv_mod.c|fdmdv_put_test_bits.c|fdmdv.c|fec_dec.c|fec_enc.c|fm_demod.c|fm_fir_coeff.h|fm.c|fq20.sh|freedv_api.c|freedv_api.h|freedv_rx.c|freedv_tx.c|generate_codebook.c|genlspdtcb.c|golay23.c|golay23.h|golaydectable.h|golayenctable.h|hanning.h|ht_coeff.h|insert_errors.c|linreg.c|linreg.h|listensim.sh|machdep.h|modem_stats.c|modem_stats.h|octave.c|octave.h|os.h|phaseexp.c|phaseexp.h|pilot_coeff.h|pilots_coh.h|rn_coh.h|rn.h|rxdec_coeff.h|sim.sh|ssbfilt_coeff.h|test_bits_coh.h|test_bits.h|varicode_table.h|varicode.c|varicode.h" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>

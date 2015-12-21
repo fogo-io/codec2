@@ -7,7 +7,7 @@
 
 #include "defines.h"
 
-  /* codebook/gecb.txt */
+  /* /media/psf/Home/git/codec2/src/codebook/gecb.txt */
 static const float codes0[] = {
   2.71,  12.0184,
   0.04675,  -2.73881,
@@ -268,7 +268,7 @@ static const float codes0[] = {
 };
 
 const struct lsp_codebook ge_cb[] = {
-  /* codebook/gecb.txt */
+  /* /media/psf/Home/git/codec2/src/codebook/gecb.txt */
   {
     2,
     8,

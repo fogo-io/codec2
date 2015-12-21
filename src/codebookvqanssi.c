@@ -7,7 +7,7 @@
 
 #include "defines.h"
 
-  /* codebook/lspvqanssi1.txt */
+  /* /media/psf/Home/git/codec2/src/codebook/lspvqanssi1.txt */
 static const float codes0[] = {
   0.5862,  0.7213,  0.9146,  1.0909,  1.291,  1.4954,  1.837,  2.084,  2.3771,  2.5518,
   0.0871,  0.2049,  0.5849,  0.8552,  1.2096,  1.4686,  1.821,  2.0926,  2.4508,  2.7389,
@@ -266,7 +266,7 @@ static const float codes0[] = {
   0.2141,  0.3095,  0.7428,  1.0426,  1.2851,  1.5571,  1.7901,  1.9804,  2.2462,  2.5265,
   0.1574,  0.229,  0.3869,  0.5735,  1.0925,  1.3383,  1.6598,  1.9364,  2.2095,  2.4195
 };
-  /* codebook/lspvqanssi2.txt */
+  /* /media/psf/Home/git/codec2/src/codebook/lspvqanssi2.txt */
 static const float codes1[] = {
   0.012,  0.0022,  0.0068,  -0.0112,  -0.0508,  -0.049,  0.2249,  0.1476,  0.0133,  -0.0379,
   0.0598,  0.0477,  0.038,  0.066,  0.0517,  0.015,  0.0617,  0.0081,  -0.0768,  -0.1007,
@@ -397,7 +397,7 @@ static const float codes1[] = {
   0.0428,  0.0385,  -0.0228,  0.0704,  0.0069,  -0.0145,  -0.0623,  -0.0639,  -0.1479,  0.0212,
   -0.0078,  -0.0297,  0.0025,  -0.0239,  -0.0793,  0.0896,  0.0315,  -0.0546,  -0.1309,  0.108
 };
-  /* codebook/lspvqanssi3.txt */
+  /* /media/psf/Home/git/codec2/src/codebook/lspvqanssi3.txt */
 static const float codes2[] = {
   -0.0291,  0.0272,  -0.0364,  -0.0313,  -0.0487,  -0.0205,  0.0501,  0.0225,  0.0178,  0.008,
   -0.0406,  -0.0383,  0.0013,  -0.0155,  -0.0261,  -0.0598,  0.0003,  -0.0242,  0.0151,  -0.014,
@@ -464,7 +464,7 @@ static const float codes2[] = {
   -0.0091,  -0.029,  -0.0068,  0.0276,  0.0645,  -0.015,  0.0015,  -0.0374,  0.0415,  -0.0124,
   -0.0171,  0.0177,  -0.0138,  0.0034,  0.084,  0.0584,  0.0233,  0.01,  0.0122,  0.0047
 };
-  /* codebook/lspvqanssi4.txt */
+  /* /media/psf/Home/git/codec2/src/codebook/lspvqanssi4.txt */
 static const float codes3[] = {
   0.0221,  -0.0035,  -0.0032,  -0.0177,  -0.0327,  0.0518,  -0.011,  -0.015,  -0.0136,  -0.0327,
   0.0099,  -0.0059,  0.0031,  -0.0174,  0.0464,  -0.024,  0.0251,  -0.027,  0.0454,  -0.0082,
@@ -533,28 +533,28 @@ static const float codes3[] = {
 };
 
 const struct lsp_codebook lsp_cbvqanssi[] = {
-  /* codebook/lspvqanssi1.txt */
+  /* /media/psf/Home/git/codec2/src/codebook/lspvqanssi1.txt */
   {
     10,
     8,
     256,
     codes0
   },
-  /* codebook/lspvqanssi2.txt */
+  /* /media/psf/Home/git/codec2/src/codebook/lspvqanssi2.txt */
   {
     10,
     7,
     128,
     codes1
   },
-  /* codebook/lspvqanssi3.txt */
+  /* /media/psf/Home/git/codec2/src/codebook/lspvqanssi3.txt */
   {
     10,
     6,
     64,
     codes2
   },
-  /* codebook/lspvqanssi4.txt */
+  /* /media/psf/Home/git/codec2/src/codebook/lspvqanssi4.txt */
   {
     10,
     6,
